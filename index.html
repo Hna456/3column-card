@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+    <title>3-Column Preview Card Component | Frontend Mentor</title>
+</head>
+
+<body class="bg-gray font-Lexend-Deca">
+    <!--Container Position-->
+    <div
+        class="flex flex-col justify-center items-center my-24 w-[88%] mx-auto md:w-[65%] lg:h-screen lg:flex-row lg:my-0 lg:w-[900px]">
+        <!--Box 1-->
+        <div
+            class="flex flex-col py-10 space-y-6 px-10 justify-center bg-orange rounded-t-lg lg:rounded-bl-lg lg:rounded-tr-none lg:space-y-16 lg:hover:-translate-y-3 transition duration-500 hover:cursor-pointer ">
+            <div class="flex flex-col space-y-7 lg:space-y-5">
+                <img src="images/icon-sedans.svg" alt="" class="w-20">
+                <h1 class="font-Big-Shoulder-Display text-transparentWhite font-bold text-3xl uppercase">Sedans</h1>
+                <p class="text-transparentWhite text-sm">Choose a sedan for its affordability and excellent fuel
+                    economy. Ideal
+                    for cruising in the
+                    city or on
+                    your next road trip.</p>
+            </div>
+            <div>
+                <button
+                    class="text-orange bg-white text-base font-semibold px-6 py-2 rounded-full hover:bg-orange hover:text-white hover:cursor-pointer hover:border-2 hover:border-white transition duration-200">Learn
+                    More</button>
+            </div>
+        </div>
+        <!--Box 2-->
+        <div
+            class="flex flex-col py-10 space-y-6 px-10 justify-center bg-cyan lg:space-y-16 lg:hover:translate-y-3 transition duration-500 hover:cursor-pointer ">
+            <div class="flex flex-col space-y-7 lg:space-y-5">
+                <img src="images/icon-suvs.svg" alt="" class="w-20">
+                <h1 class="font-Big-Shoulder-Display text-transparentWhite font-bold text-3xl uppercase">Suvs</h1>
+                <p class="text-transparentWhite text-sm">Take an SUV for its spacious interior, power and versatility.
+                    Perfect
+                    for your next family vacation and off-road adventures.</p>
+            </div>
+            <div>
+                <button
+                    class="text-cyan bg-white text-base font-semibold px-6 py-2 rounded-full hover:bg-cyan hover:text-white hover:cursor-pointer hover:border-2 hover:border-white transition duration-200">Learn
+                    More</button>
+            </div>
+        </div>
+        <!--Box 3-->
+        <div
+            class="flex flex-col py-10 space-y-6 px-10 justify-center bg-darkCyan rounded-b-xl lg:rounded-tr-lg lg:rounded-bl-none lg:space-y-16 lg:hover:translate-y-3 transition duration-500 hover:cursor-pointer">
+            <div class="flex flex-col space-y-7 lg:space-y-5">
+                <img src="images/icon-luxury.svg" alt="" class="w-20">
+                <h1 class="font-Big-Shoulder-Display text-transparentWhite font-bold text-3xl uppercase">Luxury</h1>
+                <p class="text-transparentWhite text-sm">Cruise in the best car brands without the bloated prices. Enjoy
+                    the
+                    enhanced comfort of a luxury rental and arrive in safety.</p>
+            </div>
+            <div>
+                <button
+                    class="text-darkcyan bg-white text-base font-semibold px-6 py-2 rounded-full hover:bg-darkCyan hover:text-white hover:cursor-pointer hover:border-2 hover:border-white transition duration-200">Learn
+                    More</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
